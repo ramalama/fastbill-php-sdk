@@ -27,17 +27,17 @@ class WorkTimeSearchStruct extends AbstractSearchStruct
         $this->filters['TIME_ID'] = $timeId;
     }
 
-    public function setStartDateFilter(\DateTime $startDate)
+    public function setStartDateFilter(string $startDate)
     {
         $this->filters['START_DATE'] = $startDate;
     }
 
-    public function setEndDateFilter(\DateTime $endDate)
+    public function setEndDateFilter(string $endDate)
     {
         $this->filters['END_DATE'] = $endDate;
     }
 
-    public function setDateFilter(\DateTime $date)
+    public function setDateFilter(string $date)
     {
         $this->filters['DATE'] = $date;
     }
